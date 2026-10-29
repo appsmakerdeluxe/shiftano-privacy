@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Privacy Policy – Shiftano</title>
-  <meta name="description" content="Privacy Policy for Shiftano Android App by AppsMakerDeluxe.">
+  <title>Privacy Policy – Shiftano & Shiftano Pro</title>
+  <meta name="description" content="Privacy Policy for Shiftano and Shiftano Pro Android Apps by AppsMakerDeluxe Studios.">
   <meta name="theme-color" content="#2563eb">
   <link rel="icon" href="../../../assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../../../assets/site.css">
@@ -22,41 +22,52 @@
     </div>
   </header>
   <main class="wrap content">
-    <p class="meta">Effective Date: August 31, 2026</p>
-    <h1>Privacy Policy for Shiftano</h1>
+    <p class="meta">Effective Date: October 29, 2026</p>
+    <h1>Privacy Policy for Shiftano & Shiftano Pro</h1>
     
     <div class="notice">
-      <strong>Summary:</strong> Shiftano stores all your rosters, shift patterns, notes, and time records strictly locally on your device. There are no user accounts, no analytics tracking, no advertisements, and no cloud servers.
+      <strong>Summary:</strong> Shiftano and Shiftano Pro store all your rosters, shift patterns, notes, salary rates, and time records strictly locally on your device. There are no user accounts, no analytics tracking, no advertisements, and no cloud servers.
     </div>
 
     <h2>1. Data Controller</h2>
     <p>Responsible developer:<br>
-    <strong>AppsMakerDeluxe</strong><br>
+    <strong>AppsMakerDeluxe Studios</strong><br>
     Email: <a href="mailto:appsmakerdeluxe@gmail.com">appsmakerdeluxe@gmail.com</a></p>
 
     <h2>2. Core Privacy Philosophy</h2>
-    <p>Shiftano is designed with Privacy by Default. The app functions completely offline without any account registration.</p>
+    <p>Shiftano and Shiftano Pro are designed with Privacy by Default. Both editions function completely offline without requiring any user account or online registration.</p>
 
     <h2>3. Data Stored Locally</h2>
     <ul>
-      <li><strong>Roster Data:</strong> Shift types, start/end times, notes, categories, locations.</li>
-      <li><strong>Time Tracking Data:</strong> Clock-in/out timestamps, breaks, actual work hours.</li>
-      <li><strong>User Profiles & Settings:</strong> Target hours, overtime balance, vacation balance, visual preferences.</li>
+      <li><strong>Roster Data:</strong> Shift types, start and end times, notes, work locations, rotation patterns.</li>
+      <li><strong>Time Tracking Data:</strong> Clock-in and clock-out timestamps, break durations, actual work hours.</li>
+      <li><strong>Profiles & Contracts:</strong> Target hours, overtime balances, vacation allowances, hourly wage rates, and bonus rules (used strictly for local calculation in Shiftano Pro).</li>
+      <li><strong>Shift Swaps (Pro):</strong> Swap partners, traded shifts, and approval status (documented locally only).</li>
     </ul>
+    <p>All of this data is stored exclusively in your device's local SQLite/Room database.</p>
 
     <h2>4. Permissions Used</h2>
     <ul>
-      <li><strong>Notifications (POST_NOTIFICATIONS):</strong> Used solely for optional shift alarms.</li>
-      <li><strong>Calendar (READ/WRITE_CALENDAR):</strong> Used solely if you opt to export/sync shifts into your Android system calendar.</li>
-      <li><strong>Camera / Storage:</strong> Used strictly on-device for the OCR schedule scanner. Processing is 100% local.</li>
+      <li><strong>Notifications (POST_NOTIFICATIONS):</strong> Used solely if you opt to enable shift reminders or alarms.</li>
+      <li><strong>Camera / Photo Picker:</strong> Used exclusively on-device when you choose to photograph or import a paper roster for text recognition (OCR via on-device ML Kit). No image data leaves your phone.</li>
+      <li><strong>Exact Alarms (SCHEDULE_EXACT_ALARM):</strong> Required to trigger timely reminders before your shifts start.</li>
     </ul>
 
-    <h2>5. Contact</h2>
+    <h2>5. Backups and File Exports</h2>
+    <p>When you generate a local backup or export records as a PDF timesheet, ICS calendar file, or CSV spreadsheet, the file is saved via Android's Storage Access Framework (SAF) or shared via the standard Android Sharesheet. No background upload to third-party servers takes place.</p>
+
+    <h2>6. No Third-Party Sharing</h2>
+    <p>Because we do not operate remote servers and do not integrate any advertising or analytics SDKs, your data is never transmitted, processed, or sold to anyone.</p>
+
+    <h2>7. User Control & Data Deletion</h2>
+    <p>You have full control over your data at all times. You can delete individual shifts, reset the database in the app settings, or uninstall the app to permanently and irreversibly erase all stored information from your device.</p>
+
+    <h2>8. Contact</h2>
     <p>If you have any questions regarding privacy, please contact: <a href="mailto:appsmakerdeluxe@gmail.com">appsmakerdeluxe@gmail.com</a></p>
   </main>
   <footer class="site-footer">
     <div class="wrap">
-      <span>© 2026 AppsMakerDeluxe</span>
+      <span>© 2026 AppsMakerDeluxe Studios</span>
       <a href="../../contact/">Contact</a>
     </div>
   </footer>
